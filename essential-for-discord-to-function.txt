@@ -34,7 +34,7 @@ button[aria-label="Deafen"].button_f67531.enabled_f67531.button_dd4f85 .lottieIc
 
 /* direct messages image */
 img[src*="/assets/3145bdb4ad97e9e47055.webp"] {
-    content: url(''); /* just replace the URL to change the image */
+    content: url('URL'); /* just replace the URL to change the image */
     width: 48px !important; 
 }
 
