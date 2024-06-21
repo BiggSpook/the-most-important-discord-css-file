@@ -1,0 +1,101 @@
+/* change the mute button */
+button[aria-label="Mute"].button_f67531.enabled_f67531.button_dd4f85 {
+    background: url('https://cdn.discordapp.com/attachments/603621961796550656/1253397471699275816/DoggyUnmutedIcon.png?ex=6675b4dc&is=6674635c&hm=fa687454ad90e319f1a4872b7cdac05bff312d5057f8564085cb31c3935f537e&') no-repeat center center !important; /* just replace the URL to change the image */
+    background-size: contain !important;
+}
+
+/* change the unmute button */
+button[aria-label="Mute"][aria-checked="true"].button_f67531.enabled_f67531.button_dd4f85 {
+    background: url('https://cdn.discordapp.com/attachments/603621961796550656/1253397471338561628/DoggyMutedIcon.png?ex=6675b4dc&is=6674635c&hm=216624d7e3c33373d5620ce6958cd1966ebd182fe4f8832387e04713f7542236&') no-repeat center center !important; /* just replace the URL to change the image */
+    background-size: contain !important;
+}
+
+/* hide the original SVG path for the mute icon */
+button[aria-label="Mute"].button_f67531.enabled_f67531.button_dd4f85 .lottieIcon_f73ef7 {
+    display: none !important;
+}
+
+/* change the deafen button */
+button[aria-label="Deafen"].button_f67531.enabled_f67531.button_dd4f85 {
+    background: url('https://cdn.discordapp.com/attachments/603621961796550656/1253466213334646894/UndeafenedIcon.png?ex=6675f4e1&is=6674a361&hm=52a2166e9a98060b6113306ac55ef94358a61507046d1ca095df0fe521526d5e&') no-repeat center center !important; /* just replace the URL to change the image */
+    background-size: contain !important;
+}
+
+/* change the undeafen button */
+button[aria-label="Deafen"][aria-checked="true"].button_f67531.enabled_f67531.button_dd4f85 {
+    background: url('https://cdn.discordapp.com/attachments/603621961796550656/1253466212906831954/DeafenedIcon.png?ex=6675f4e1&is=6674a361&hm=520fb77ff1118ecdd2ae9d2a617ef300e1592bd2dc5fd4337ba3c14a8eb1ff94&') no-repeat center center !important; /* just replace the URL to change the image */
+    background-size: contain !important;
+}
+
+/* hide the original SVG path for the mute icon */
+button[aria-label="Deafen"].button_f67531.enabled_f67531.button_dd4f85 .lottieIcon_f73ef7 {
+    display: none !important;
+}
+
+/* direct messages image */
+img[src*="/assets/3145bdb4ad97e9e47055.webp"] {
+    content: url(''); /* just replace the URL to change the image */
+    width: 48px !important; 
+}
+
+/* target the muted icon in vcs, without changing the deafened icon */
+.iconSpacing_cdc675[aria-label="Muted"] .icon_cdc675 {
+    width: 24px;
+    height: 24px;
+    background-image: url('https://cdn.discordapp.com/attachments/603621961796550656/1253461848561287329/DoggyMutedGrey.png?ex=6675f0d0&is=66749f50&hm=1e4c3b2eea91664c803c401f7cc89cc12b125b388e7bd5967f2a110f66512180&'); /* just replace the URL to change the image */
+    background-size: cover;
+}
+
+/* target the deafened icon in vcs, without changing the muted icon */
+.iconSpacing_cdc675[aria-label="Deafened"] .icon_cdc675 {
+    width: 24px;
+    height: 24px;
+    background-image: url('https://cdn.discordapp.com/attachments/603621961796550656/1253469710746652693/UndeafenedIcon2.png?ex=6675f823&is=6674a6a3&hm=8b54b61dfe5b37cbb64ac6bb3de0ea05f47688409a62fa058d5cbf2b2562abc7&'); /* just replace the URL to change the image */
+    background-size: cover;
+}
+
+/* hide the original SVG path for the muted icon */
+.iconSpacing_cdc675[aria-label="Muted"] .icon_cdc675 path {
+    display: none;
+}
+
+/* hide the original SVG path for the deafened icon */
+.iconSpacing_cdc675[aria-label="Deafened"] .icon_cdc675 path {
+    display: none;
+}
+
+/* change the server muted icon */
+.iconSpacing_cdc675[aria-label="Server Muted"] .icon_cdc675 {
+    width: 24px;
+    height: 24px;
+    background-image: url('https://cdn.discordapp.com/attachments/603621961796550656/1253397471338561628/DoggyMutedIcon.png?ex=6675b4dc&is=6674635c&hm=216624d7e3c33373d5620ce6958cd1966ebd182fe4f8832387e04713f7542236&'); /* just replace the URL to change the image */
+    background-size: cover;
+}
+
+/* hide the original SVG path for the muted icon */
+.iconSpacing_cdc675[aria-label="Server Muted"] .icon_cdc675 path {
+    display: none;
+}
+
+/* change the server deafened icon */
+.iconSpacing_cdc675[aria-label="Server Deafened"] .icon_cdc675 {
+    width: 24px;
+    height: 24px;
+    background-image: url('https://cdn.discordapp.com/attachments/603621961796550656/1253466212906831954/DeafenedIcon.png?ex=6675f4e1&is=6674a361&hm=520fb77ff1118ecdd2ae9d2a617ef300e1592bd2dc5fd4337ba3c14a8eb1ff94&'); /* just replace the URL to change the image */
+    background-size: cover;
+}
+
+/* hide the original SVG path for the muted icon */
+.iconSpacing_cdc675[aria-label="Server Deafened"] .icon_cdc675 path {
+    display: none;
+}
+
+/* hide the server mute icon */
+button[aria-label="Mute"] div.contents_dd4f85 svg {
+  display: none !important;
+}
+
+/* hide the server deafen icon */
+button[aria-label="Deafen"] div.contents_dd4f85 svg {
+  display: none !important;
+}
